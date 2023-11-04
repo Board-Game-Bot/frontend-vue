@@ -5,7 +5,7 @@ import { mode, api_url } from '@/config.json';
 import useUserStore from '@/store/userStore';
 
 const api = axios.create({
-  baseURL: `${api_url[mode]}/api`,
+  baseURL: `${api_url[mode]}/napi`,
 });
 
 const getHeader = () => {
